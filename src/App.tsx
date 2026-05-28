@@ -283,7 +283,7 @@ export default function App() {
               <div className="absolute -bottom-6 -left-4 bg-white border border-slate-200 shadow-xl px-5 py-3 rounded-lg hidden md:flex items-center gap-3">
                 <Shield className="w-5 h-5 text-orange-600" />
                 <div className="flex flex-col">
-                  <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Regulado por</span>
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Certificado por</span>
                   <span className="text-xs font-bold text-slate-800">Banco de España & DGSFP</span>
                 </div>
               </div>
