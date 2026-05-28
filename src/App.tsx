@@ -51,8 +51,8 @@ export default function App() {
       icon: Home,
       title: "Hipotecas y Financiación",
       subtitle: "Hipotecas en Altea, Benidorm y Alicante ",
-      desc: "Negociación directa con entidades bancarias para la obtención de nuevas hipotecas o la subrogación (mejora) de tu préstamo actual.",
-      details: "Tanto si vas a adquirir tu primera vivienda como si deseas refinanciar o cambiar tu hipoteca variable actual a tipo fijo, realizo un estudio de viabilidad con más de 20 bancos para conseguir tipos de interés mínimos, reducción de vinculaciones y comisiones nulas."
+      desc: "Consigo hasta el 100% de financiación en la compra de tu futuro hogar.",
+      details: "Tanto si vas a adquirir tu primera vivienda como si deseas refinanciar o cambiar tu hipoteca variable actual a tipo fijo, realizo un estudio de viabilidad para conseguir tipos de interés mínimos, reducción de vinculaciones y comisiones nulas."
     },
     {
       icon: Shield,
@@ -65,7 +65,7 @@ export default function App() {
       icon: TrendingUp,
       title: "Planificación del Ahorro",
       subtitle: "Jubilación y Optimización Fiscal",
-      desc: "Asesoramiento sobre PIAS, fondos indexados y planes de pensiones para maximizar tus retornos y desgravar impuestos legalmente.",
+      desc: "Asesoramiento sobre SIALP, planes de ahorro, de inversión y planes de pensiones para maximizar tus retornos y desgravar impuestos legalmente.",
       details: "Te ayudo a configurar tu plan de ahorro automatizado utilizando el interés compuesto y aplicando estrategias de diversificación de activos alineadas con tu perfil de riesgo. El objetivo es estructurar tu capital de forma que gane rentabilidad real batiendo a la inflación."
     },
     {
@@ -87,7 +87,7 @@ export default function App() {
       title: "Administración de Fincas",
       subtitle: "Comunidades Inteligentes en Alicante",
       desc: "Gestión clara, auditoría de costes de comunidad, optimización de mantenimientos e incidencias de forma transparente.",
-      details: "Me encargo de la administración de tu comunidad de propietarios con un enfoque de eficiencia económica: revisando contratos de proveedores habituales, gestionando el cobro de cuotas contra la morosidad, y resolviendo siniestros con seguros de hogar en Alicante de manera ágil."
+      details: "Me encargo de la administración de tu comunidad de propietarios con herramientas innovadoras que hacen la gestión cercana y totalmente transparente: revisando contratos de proveedores habituales, convocando juntas, gestionando el cobro de cuotas contra la morosidad, y resolviendo las incidencias de manera ágil"
     }
   ];
 
@@ -326,7 +326,7 @@ export default function App() {
               <span className="text-4xl font-extrabold font-mono text-slate-800 block">03</span>
               <h3 className="text-base font-bold uppercase tracking-widest text-white">Ahorro y Planificación</h3>
               <p className="text-xs text-slate-400 leading-relaxed">
-                Establecer mecanismos de capitalización inteligente para el largo plazo (PIAS, planes de previsión) con flexibilidad de rescate y máxima optimización fiscal orientada al momento de la jubilación.
+                Establecer mecanismos de capitalización inteligente para el largo plazo (SIALP, planes de previsión) con flexibilidad de rescate y máxima optimización fiscal orientada al momento de la jubilación.
               </p>
             </div>
           </div>
@@ -384,10 +384,10 @@ export default function App() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
             <div className="space-y-2">
               <span className="text-xs font-bold uppercase tracking-widest text-orange-600">Servicios Clave</span>
-              <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-tight text-slate-900 leading-none">Mi Ámbito de Asesoramiento Cohesivo</h2>
+              <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-tight text-slate-900 leading-none">Mi Ámbito de Asesoramiento</h2>
             </div>
             <p className="text-xs md:text-sm text-slate-500 max-w-md leading-relaxed">
-              No vendo productos enlatados. Analizo tu situation global y estructuro las soluciones óptimas que mejor se adaptan a tus objetivos financieros particulares.
+              No vendo productos genéricos. Analizo tu situation global y estructuro las soluciones óptimas que mejor se adaptan a tus objetivos financieros particulares.
             </p>
           </div>
 
@@ -709,7 +709,7 @@ export default function App() {
                 <h4 className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-3">Acreditaciones y Garantías Jurídicas</h4>
                 <div className="flex flex-wrap gap-3">
                   <span className="px-3 py-1.5 bg-white border border-slate-200 text-slate-700 font-bold font-mono text-[9px] uppercase tracking-wider rounded-lg shadow-sm">
-                    🎓 Certificado por Banco de España
+                    🎓 Acreditado por Banco de España
                   </span>
                   <span className="px-3 py-1.5 bg-white border border-slate-200 text-slate-700 font-bold font-mono text-[9px] uppercase tracking-wider rounded-lg shadow-sm">
                     🛡️ Registro de la DGSFP
