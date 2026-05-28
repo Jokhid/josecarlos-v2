@@ -272,7 +272,7 @@ export default function App() {
               <div className="relative w-full max-w-md aspect-square bg-slate-100 border-4 border-slate-900 shadow-xl overflow-hidden rounded-xl group">
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-500/20 to-transparent z-10 transition-opacity"></div>
                 <img 
-                  src="/yo traje azul.png" 
+                  src="/yo traje azul 3.png" 
                   referrerPolicy="no-referrer"
                   alt="José Carlos Hidalgo Ortega - Asesor Financiero" 
                   className="w-full h-full object-cover grayscale brightness-95 filter transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0"
@@ -677,7 +677,7 @@ export default function App() {
             <div className="lg:col-span-5 flex justify-center">
               <div className="relative w-full max-w-sm aspect-square border-4 border-slate-200 shadow-xl bg-slate-100 rounded-2xl overflow-hidden group">
                 <img 
-                  src="/yo traje azul.png" 
+                  src="/yo traje azul 3.png" 
                   referrerPolicy="no-referrer"
                   alt="José Carlos Hidalgo Ortega" 
                   className="w-full h-full object-cover filter brightness-95 grayscale hover:grayscale-0 transition-all duration-500"
