@@ -1,0 +1,8 @@
+{
+  "name": "José Carlos Hidalgo | Asesor Financiero",
+  "description": "Landing page y gestor de prospectos para la asesoramiento patrimonial de José Carlos Hidalgo Ortega. Incluye cotizadores interactivos y sincronización de leads directa con Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "Lead": {
+      "title": "Lead",
+      "description": "Form submission from a potential client seeking financial advising.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Client's full name" },
+        "phone": { "type": "string", "description": "Client's contact phone number" },
+        "email": { "type": "string", "description": "Client's contact email address" },
+        "service": { "type": "string", "description": "Service of interest" },
+        "message": { "type": "string", "description": "Additional description of financial needs" },
+        "createdAt": { "type": "object", "format": "date-time", "description": "Creation timestamp" },
+        "status": { "type": "string", "enum": ["new", "contacted", "archived"], "description": "Status of the lead" }
+      },
+      "required": ["name", "phone", "email", "service", "message", "createdAt"]
+    },
+    "AppConfig": {
+      "title": "AppConfig",
+      "description": "Global settings for the landing page including Google Sheet link.",
+      "type": "object",
+      "properties": {
+        "spreadsheetId": { "type": "string", "description": "Google Sheet ID used to sync leads" },
+        "spreadsheetUrl": { "type": "string", "description": "Full link to the synced Google Sheet" },
+        "updatedAt": { "type": "object", "format": "date-time", "description": "Timestamp of last settings update" }
+      },
+      "required": ["spreadsheetId", "spreadsheetUrl", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/leads/{leadId}": {
+      "schema": "Lead",
+      "description": "Form entries submitted by visitors"
+    },
+    "/config/{configId}": {
+      "schema": "AppConfig",
+      "description": "Admin settings for sheets sync"
+    }
+  }
+}
