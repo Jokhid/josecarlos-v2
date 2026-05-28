@@ -677,7 +677,7 @@ export default function App() {
             <div className="lg:col-span-5 flex justify-center">
               <div className="relative w-full max-w-sm aspect-square border-4 border-slate-200 shadow-xl bg-slate-100 rounded-2xl overflow-hidden group">
                 <img 
-                  src="https://lh3.googleusercontent.com/aida/ADBb0uhMA4Jivhq7ZDDARdEwtIWCcEAnX-m0NGbk-n9CkgPR2H6GDLP-IuPjkr4ko57cImINfzMkPmFajplWAtIqQ-pIDV8sZ-2lU0U1kJtzfVtFjKEfHK-hOSoZzlINnFqraObdf4CFUsI_nGDatp4mfICoFRXWAvb-kROLwFIDpBAUOJQvCCZ_i779kegbItC0dMWB5htJwjjsEYIxAtfVYP_j0eUiqtq_DpIaYjzNoit_5RpZlMginIoam634" 
+                  src="/yo traje azul.png" 
                   referrerPolicy="no-referrer"
                   alt="José Carlos Hidalgo Ortega" 
                   className="w-full h-full object-cover filter brightness-95 grayscale hover:grayscale-0 transition-all duration-500"
