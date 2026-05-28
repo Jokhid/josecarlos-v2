@@ -50,7 +50,7 @@ export default function App() {
     {
       icon: Home,
       title: "Hipotecas y Financiación",
-      subtitle: "Hipotecas en Alicante y Elche",
+      subtitle: "Hipotecas en Altea, Benidorm y Alicante ",
       desc: "Negociación directa con entidades bancarias para la obtención de nuevas hipotecas o la subrogación (mejora) de tu préstamo actual.",
       details: "Tanto si vas a adquirir tu primera vivienda como si deseas refinanciar o cambiar tu hipoteca variable actual a tipo fijo, realizo un estudio de viabilidad con más de 20 bancos para conseguir tipos de interés mínimos, reducción de vinculaciones y comisiones nulas."
     },
@@ -97,7 +97,7 @@ export default function App() {
       {/* Upper Announcement Bar */}
       <div className="bg-slate-900 text-white py-2 px-4 text-center border-b border-slate-800">
         <p className="text-[10px] md:text-xs font-bold uppercase tracking-widest text-slate-300">
-          📍 Diagnóstico Financiero Presencial en Alicante / Elche y Online a nivel nacional • <span className="text-orange-400 font-bold">Sesión 100% gratuita</span>
+          📍 Diagnóstico Financiero Presencial en Altea, Benidorm, Alicante y Online a nivel nacional • <span className="text-orange-400 font-bold">Sesión 100% gratuita</span>
         </p>
       </div>
 
@@ -700,7 +700,7 @@ export default function App() {
                   No vendo directrices ni campañas de ningún banco. Esto significa que cuando revisamos tu hipoteca o planificamos un plan de jubilación, te muestro exactamente las ofertas reales comparadas científicamente entre múltiples entidades del mercado para que decidas con conocimiento técnico de causa.
                 </p>
                 <p>
-                  Además de la asesoría financiera y seguros de protección de baja para autónomos, gestiono de manera transparente comunidades en Elche y la provincia de Alicante, optimizando sus cuentas mediante auditorías de proveedores periódicas.
+                  Además de la asesoría financiera y seguros de protección de baja para autónomos, gestiono de manera transparente comunidades en Altea y en la provincia de Alicante, optimizando sus cuentas mediante auditorías de proveedores periódicas.
                 </p>
               </div>
 
@@ -887,7 +887,7 @@ export default function App() {
             <div className="space-y-3">
               <h5 className="text-[10px] font-bold uppercase tracking-widest text-slate-455">Canales Directos</h5>
               <p className="text-xs text-slate-400 leading-relaxed">
-                Asesoramiento en Alicante, Elche, Elda, Santa Pola y videoconferencia nacional.
+                Asesoramiento en Altea, Benidorm, Alicante y videoconferencia nacional.
               </p>
             </div>
 
