@@ -272,7 +272,7 @@ export default function App() {
               <div className="relative w-full max-w-md aspect-square bg-slate-100 border-4 border-slate-900 shadow-xl overflow-hidden rounded-xl group">
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-500/20 to-transparent z-10 transition-opacity"></div>
                 <img 
-                  src="https://lh3.googleusercontent.com/aida/ADBb0uhMA4Jivhq7ZDDARdEwtIWCcEAnX-m0NGbk-n9CkgPR2H6GDLP-IuPjkr4ko57cImINfzMkPmFajplWAtIqQ-pIDV8sZ-2lU0U1kJtzfVtFjKEfHK-hOSoZzlINnFqraObdf4CFUsI_nGDatp4mfICoFRXWAvb-kROLwFIDpBAUOJQvCCZ_i779kegbItC0dMWB5htJwjjsEYIxAtfVYP_j0eUiqtq_DpIaYjzNoit_5RpZlMginIoam634" 
+                  src="/yo traje azul.png" 
                   referrerPolicy="no-referrer"
                   alt="José Carlos Hidalgo Ortega - Asesor Financiero" 
                   className="w-full h-full object-cover grayscale brightness-95 filter transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0"
